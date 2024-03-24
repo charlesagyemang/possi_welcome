@@ -1,0 +1,42 @@
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#welcome-message {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+#checkmark {
+    display: block;
+    font-size: 60px;
+    color: #4CAF50; /* Adjust color if needed */
+    margin: 20px auto;
+}
